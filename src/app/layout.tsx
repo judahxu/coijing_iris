@@ -7,10 +7,50 @@ import { TRPCReactProvider } from "~/trpc/react";
 import ChatWidget from "../components/ChatWidget";
 
 export const metadata: Metadata = {
-  title: "可爱鲸 - 用智能体重塑企业未来",
-  description: "专注于开发智能体（AI Agents）的科技公司",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  metadataBase: new URL("https://iris.coijing.com/"),
+  title: {
+    default: "智能客服机器人",
+    template: `%s | "智能客服机器人"`,
+  },
+  description: "基于大语言模型的新一代智能客服系统，为企业打造7*24小时全天候的智能服务能力",
+  keywords: "智能客服,AI客服,客服机器人,在线客服系统,智能对话机器人",
+  authors: [{ name: '可爱鲸' }],
+  creator: '可爱鲸',
+  openGraph: {
+    type: 'website',
+    locale: 'zh_CN',
+    url: "https://iris.coijing.com/",
+    title: "智能客服机器人",
+    description: "基于大语言模型的新一代智能客服系统，为企业打造7*24小时全天候的智能服务能力",
+    siteName: "智能客服机器人",
+    images: [{ url: "/og-image.jpg" }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "智能客服机器人",
+    description: "基于大语言模型的新一代智能客服系统，为企业打造7*24小时全天候的智能服务能力",
+    images: ["/og-image.jpg"],
+    creator: "@coijing",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
+  manifest: '/site.webmanifest',
 };
+
 
 export default function RootLayout({
   children,
