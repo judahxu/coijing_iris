@@ -25,13 +25,6 @@ export const metadata: Metadata = {
     siteName: "智能客服机器人",
     images: [{ url: "/og-image.jpg" }],
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: "智能客服机器人",
-    description: "基于大语言模型的新一代智能客服系统，为企业打造7*24小时全天候的智能服务能力",
-    images: ["/og-image.jpg"],
-    creator: "@coijing",
-  },
   robots: {
     index: true,
     follow: true,
@@ -45,10 +38,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
   },
-  manifest: '/site.webmanifest',
 };
 
 
