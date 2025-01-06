@@ -1,0 +1,84 @@
+{
+  "header": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "cases": "Cases",
+    "try": "Try Now"
+  },
+  "hero": {
+    "title": {
+      "prefix": "AI Customer Service",
+      "highlight": "Redefining Service Experience"
+    },
+    "description": "A next-generation intelligent customer service system based on large language models, providing 24/7 intelligent service capabilities for enterprises",
+    "button": "Get Started"
+  },
+  "features": {
+    "title": "Product Advantages",
+    "subtitle": "Enhance service efficiency and quality in multiple dimensions",
+    "cards": {
+      "conversation": {
+        "title": "Intelligent Dialogue",
+        "description": "Achieve natural and smooth multi-turn dialogues based on deep understanding capabilities of large language models"
+      },
+      "response": {
+        "title": "Efficient Response",
+        "description": "24/7 service with millisecond-level response, significantly improving customer satisfaction"
+      },
+      "analysis": {
+        "title": "Data Analysis",
+        "description": "Comprehensive data analysis and visualization to help enterprises continuously optimize service quality"
+      },
+      "collaboration": {
+        "title": "Seamless Collaboration",
+        "description": "Intelligent distribution and human-machine collaboration to create a complete customer service ecosystem"
+      }
+    }
+  },
+  "solutions": {
+    "title": "Solutions",
+    "subtitle": "Professional solutions covering multiple industries",
+    "industries": {
+      "retail": {
+        "name": "E-commerce & Retail",
+        "description": "Providing professional intelligent customer service solutions for the e-commerce and retail industry"
+      },
+      "finance": {
+        "name": "Finance & Insurance",
+        "description": "Providing professional intelligent customer service solutions for the finance and insurance industry"
+      },
+      "government": {
+        "name": "Government Services",
+        "description": "Providing professional intelligent customer service solutions for government services"
+      }
+    },
+    "learnMore": "Learn More"
+  },
+  "cases": {
+    "title": "Customer Cases",
+    "subtitle": "Success stories from various industries",
+    "items": {
+      "cabinet": {
+        "name": "Smart Cabinet",
+        "description": "Intelligent customer service helps enterprises improve service efficiency and reduce operating costs",
+        "metrics": {
+          "efficiency": "Efficiency +80%",
+          "cost": "Cost -50%"
+        }
+      },
+      "charging": {
+        "name": "Charging Pile",
+        "description": "Intelligent customer service helps enterprises improve service efficiency and reduce operating costs",
+        "metrics": {
+          "efficiency": "Efficiency +80%",
+          "cost": "Cost -50%"
+        }
+      }
+    }
+  },
+  "cta": {
+    "title": "Start the New Era of Intelligent Customer Service",
+    "subtitle": "Experience the new customer service now",
+    "button": "Try for Free"
+  }
+}

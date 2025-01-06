@@ -1,0 +1,84 @@
+{
+  "header": {
+    "features": "产品功能",
+    "solutions": "解决方案",
+    "cases": "客户案例",
+    "try": "免费体验"
+  },
+  "hero": {
+    "title": {
+      "prefix": "智能客服",
+      "highlight": "重新定义服务体验"
+    },
+    "description": "基于大语言模型的新一代智能客服系统，为企业打造7*24小时全天候的智能服务能力",
+    "button": "开始使用"
+  },
+  "features": {
+    "title": "产品优势",
+    "subtitle": "多维度提升客服效率与服务质量",
+    "cards": {
+      "conversation": {
+        "title": "智能对话",
+        "description": "基于大语言模型的深度理解能力，实现自然流畅的多轮对话"
+      },
+      "response": {
+        "title": "高效响应",
+        "description": "7*24小时全天候服务，毫秒级响应，显著提升客户满意度"
+      },
+      "analysis": {
+        "title": "数据分析",
+        "description": "全方位的数据分析和可视化，助力企业持续优化服务质量"
+      },
+      "collaboration": {
+        "title": "无缝协同",
+        "description": "智能分流与人机协同，打造完整的客服服务生态"
+      }
+    }
+  },
+  "solutions": {
+    "title": "解决方案",
+    "subtitle": "覆盖多个行业的专业解决方案",
+    "industries": {
+      "retail": {
+        "name": "电商零售",
+        "description": "为电商零售行业提供专业的智能客服解决方案"
+      },
+      "finance": {
+        "name": "金融保险",
+        "description": "为金融保险行业提供专业的智能客服解决方案"
+      },
+      "government": {
+        "name": "政务服务",
+        "description": "为政务服务行业提供专业的智能客服解决方案"
+      }
+    },
+    "learnMore": "了解更多"
+  },
+  "cases": {
+    "title": "客户案例",
+    "subtitle": "来自各行业的成功案例",
+    "items": {
+      "cabinet": {
+        "name": "智能柜",
+        "description": "智能客服帮助企业提升服务效率，降低运营成本",
+        "metrics": {
+          "efficiency": "效率提升 80%",
+          "cost": "成本降低 50%"
+        }
+      },
+      "charging": {
+        "name": "充电桩",
+        "description": "智能客服帮助企业提升服务效率，降低运营成本",
+        "metrics": {
+          "efficiency": "效率提升 80%",
+          "cost": "成本降低 50%"
+        }
+      }
+    }
+  },
+  "cta": {
+    "title": "开启智能客服新时代",
+    "subtitle": "立即体验全新的客服体验",
+    "button": "免费试用"
+  }
+}
